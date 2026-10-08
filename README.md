@@ -61,7 +61,8 @@ shasum -a 256 --check SHA256SUMS
 
 ## Support and feedback
 
-- **Bugs and feature requests:** [Smactu feedback](https://github.com/SquareWaveSystems/smactu-feedback/issues).
+- **Bugs:** [Report a problem](https://github.com/SquareWaveSystems/smactu-releases/issues/new?template=bug_report.yml).
+- **Feature requests:** [Suggest an improvement](https://github.com/SquareWaveSystems/smactu-releases/issues/new?template=feature_request.yml).
 - **Licensing, billing or private support:** [support@squarewavesystems.com.au](mailto:support@squarewavesystems.com.au).
 - **Product information:** [Square Wave Systems](https://squarewavesystems.com.au).
 

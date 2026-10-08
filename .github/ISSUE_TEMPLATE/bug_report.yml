@@ -1,0 +1,83 @@
+name: Bug report
+description: Report a problem with Smactu
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Smactu! Please search existing issues first.
+        **Do not include your licence key** — for account/licensing matters, email support@squarewavesystems.com.au instead.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear description of the bug and what you expected instead.
+      placeholder: When I open a .smc2 project and commit, …
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: Numbered steps so we can reproduce it.
+      placeholder: |
+        1. Open project '…'
+        2. Run command '…'
+        3. See error
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+    validations:
+      required: false
+  - type: input
+    id: smactu-version
+    attributes:
+      label: Smactu version
+      placeholder: e.g. 0.4.2 (see the Smactu status bar item or Extensions panel)
+    validations:
+      required: true
+  - type: input
+    id: vscode-version
+    attributes:
+      label: VS Code version
+      placeholder: "Help → About (e.g. 1.99.0). Note if using Cursor/VSCodium."
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Windows
+        - macOS
+        - Linux
+    validations:
+      required: true
+  - type: input
+    id: sysmac-version
+    attributes:
+      label: Sysmac Studio version (if relevant)
+      placeholder: e.g. 1.62
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / screenshots
+      description: Output from "Smactu" in the Output panel, or screenshots. Redact anything confidential.
+      render: shell
+    validations:
+      required: false
+  - type: checkboxes
+    id: confirms
+    attributes:
+      label: Before submitting
+      options:
+        - label: I have not included my licence key or other private information
+          required: true
+        - label: I searched for existing issues describing this bug
+          required: true

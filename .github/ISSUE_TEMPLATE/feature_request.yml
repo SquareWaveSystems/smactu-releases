@@ -1,0 +1,38 @@
+name: Feature request
+description: Suggest an idea or improvement for Smactu
+title: "[Feature]: "
+labels: ["enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea! Please search existing requests first — a 👍 on an
+        existing one helps us prioritise more than a duplicate.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: The pain point or workflow gap behind the request.
+      placeholder: When working with large Sysmac projects, I can't …
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: What you'd like Smactu to do.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Screenshots, examples, or how often this affects you.
+    validations:
+      required: false
