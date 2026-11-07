@@ -6,9 +6,9 @@ projects. This is the official download repository maintained by
 
 ## Availability
 
-No builds have been published here yet. Downloads will appear on the
-[Releases page](https://github.com/SquareWaveSystems/smactu-releases/releases)
-when available. A valid Smactu licence is required to activate the extension.
+Builds are available on the
+[Releases page](https://github.com/SquareWaveSystems/smactu-releases/releases).
+A valid Smactu licence is required to activate the extension.
 
 ## Choose a release
 
