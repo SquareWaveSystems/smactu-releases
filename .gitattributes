@@ -1,0 +1,8 @@
+# GitHub's auto-generated "Source code (zip)/(tar.gz)" release archives are built
+# with `git archive` and honor export-ignore. This repo only publishes release
+# downloads (smactu.vsix) — it is not the extension's source — so exclude
+# everything from those archives and leave only a short pointer file, to avoid
+# misleading anyone who downloads them. (The download links themselves cannot be
+# removed, and this affects only tags created after this commit.)
+* export-ignore
+/SOURCE-ARCHIVE-NOTICE.txt -export-ignore

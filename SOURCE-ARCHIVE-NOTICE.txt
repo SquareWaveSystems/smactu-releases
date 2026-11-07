@@ -1,0 +1,14 @@
+This archive is NOT the Smactu extension.
+
+GitHub automatically attaches "Source code (zip)" and "Source code (tar.gz)"
+to every release. They are generated from the Git tag and cannot be removed.
+This repository publishes release downloads only; it does not contain the
+extension's source, so these archives are intentionally left empty apart from
+this notice.
+
+To install Smactu, download `smactu.vsix` from the release page:
+https://github.com/SquareWaveSystems/smactu-releases/releases
+
+A valid Smactu licence is required to activate the extension.
+
+Square Wave Systems — https://squarewavesystems.com.au
