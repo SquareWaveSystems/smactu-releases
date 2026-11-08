@@ -34,6 +34,10 @@ Alternatively, if the VS Code command is available in your terminal:
 code --install-extension smactu.vsix
 ```
 
+See the VS Code documentation on
+[installing from a VSIX](https://code.visualstudio.com/docs/configure/extensions/extension-marketplace#_install-from-a-vsix)
+for more detail.
+
 Keep independent backups of your projects. Validate project changes in Sysmac
 Studio before deploying them to equipment.
 
