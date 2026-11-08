@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/smactu-logo.png" alt="Smactu logo" width="128">
+</p>
+
 # Smactu downloads
 
 **Smactu** is a Visual Studio Code extension for working with Omron Sysmac Studio
