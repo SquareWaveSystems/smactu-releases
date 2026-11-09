@@ -14,3 +14,20 @@ jobs:
           persist-credentials: false
       - run: bash -n scripts/publish.sh
       - run: python3 -m unittest discover -s test -v
+  docs:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: docs
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: docs/package-lock.json
+      - run: npm ci
+      # Fails on broken internal links and invalid front matter.
+      - run: npm run build

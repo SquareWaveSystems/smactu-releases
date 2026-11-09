@@ -1,0 +1,37 @@
+---
+title: Smactu
+description: Work with Omron Sysmac Studio projects in Visual Studio Code.
+template: splash
+hero:
+  tagline: Work with Omron Sysmac Studio projects in Visual Studio Code.
+  image:
+    file: ../../assets/smactu-logo.png
+  actions:
+    - text: Install Smactu
+      link: /getting-started/install/
+      icon: right-arrow
+    - text: Download the latest release
+      link: https://github.com/SquareWaveSystems/smactu-releases/releases/latest
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+<CardGrid>
+  <LinkCard
+    title="Install"
+    description="Download the VSIX, install it in VS Code and activate your licence."
+    href="/getting-started/install/"
+  />
+  <LinkCard
+    title="Verify your download"
+    description="Check smactu.vsix against the published SHA256SUMS."
+    href="/getting-started/verify-download/"
+  />
+  <LinkCard
+    title="Get support"
+    description="Report a bug, suggest an improvement or contact Square Wave Systems."
+    href="/support/"
+  />
+</CardGrid>
