@@ -8,6 +8,8 @@
 projects. This is the official download repository maintained by
 [Square Wave Systems](https://squarewavesystems.com.au).
 
+**Documentation:** <https://squarewavesystems.github.io/smactu-releases/>
+
 ## Availability
 
 Builds are available on the
@@ -69,6 +71,7 @@ shasum -a 256 --check SHA256SUMS
 
 ## Support and feedback
 
+- **Documentation:** [Smactu docs](https://squarewavesystems.github.io/smactu-releases/).
 - **Bugs:** [Report a problem](https://github.com/SquareWaveSystems/smactu-releases/issues/new?template=bug_report.yml).
 - **Feature requests:** [Suggest an improvement](https://github.com/SquareWaveSystems/smactu-releases/issues/new?template=feature_request.yml).
 - **Licensing, billing or private support:** [support@squarewavesystems.com.au](mailto:support@squarewavesystems.com.au).
